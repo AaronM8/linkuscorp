@@ -1,3 +1,17 @@
+/*Universal*/
+.blue-text {
+  color:#454f6c;
+}
+.black-text {
+  color: #000000
+}
+.white-text {
+  color:#f5fffa;
+}
+h1 h2 h3 h4 h5 h6 p {
+  text-align: center;
+}
+
 /*NavBar Section*/
 /*Navbar allignment*/
 .navbar .navbar-nav {
@@ -78,7 +92,7 @@
     background-color: #ffffff;
   }
 }
-/*Homepage Section Begins*/
+/*Home Section Begins*/
 /*Hero Image Section*/
 .blue-prints {
   background-image: url('../img/blue_prints.jpg');
@@ -92,11 +106,6 @@
   padding-top: 150px;
   width: 300px;
 }
-/*Slogan*/
-/*.slogan {
-  padding-right: 15%;
-}*/
-/*Home page*/
 #home-para {
   padding: 0px 15%;
 }
@@ -153,16 +162,61 @@ section {
     margin: 0 auto;
     border-radius: 100px;
 }
-/*Homepage Section Ends*/
-/*Footer Section*/
+/*Home Section Ends*/
+/*About Section Beings*/
+
+/*About Section Ends*/
+/*Service Section Begins*/
+#service .technician-img {
+  background-image: url('../img/tech_wires.jpg');
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: 50px 0px 25px;
+}
+.service-imgtx {
+  padding: 0px 0px 0px;
+}
+/*header and text on service image*/
+.service-text {
+  margin: 100px 23px 0px 30px;;
+  background-color: rgba(0,0,0,0.3);
+}
+/*service Image Section*/
+.worker-img {
+  background-image: url('../img/tech_wires.jpg');
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: 50px 0px 25px;
+}
+/*header and text on image*/
+.services {
+  margin: 125px 100px 0px 0px;
+  background-color: rgba(5,4,2,0.1);
+}
+/*service list starts*/
+#service-list {
+  padding: 0px 5%;
+}
+.first-service, .third-service, .fifth-service, .seventh-service, .ninth-service, .eleventh-service{
+  background-color: #454f6c;
+}
+.second-service, .fourth-service, .sixth-service {
+  background-color: #f5fffa;
+}
+
+
+/*serivce list ends*/
+/*Service Section Ends*/
+/*Footer Section Starts*/
 .footer-distributed{
-	background-color: #292c2f;
+	background-color: #0E1B23;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-
 	padding: 55px 50px;
 	margin-top: 80px;
 }
