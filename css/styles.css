@@ -98,7 +98,7 @@ img {
 /*Home Section Begins*/
 /*Hero Image Section*/
 .blue-prints {
-  background-image: url('../img/blue_prints.jpg');
+  background-image: url('../img/hero/blue_prints.jpg');
   background-size: cover;
   height: 400px;
   width: 100%;
@@ -166,7 +166,7 @@ section {
 /*Home Section Ends*/
 /*About Section Beings*/
 #about .livingroom-img {
-  background-image: url('../img/livingroom.jpg');
+  background-image: url('../img/hero/livingroom.jpg');
   background-size: cover;
   height: 400px;
   width: 100%;
@@ -191,7 +191,7 @@ section {
 /*About Section Ends*/
 /*Service Section Begins*/
 #services .technician-img {
-  background-image: url('../img/tech_wires.jpg');
+  background-image: url('../img/hero/tech_wires.jpg');
   background-size: cover;
   height: 400px;
   width: 100%;
@@ -230,6 +230,26 @@ section {
 }
 /*serivce list ends*/
 /*Service Section Ends*/
+/*Gallery Section Begin*/
+#gallery .grey-livingroom-img {
+  background-image: url('../img/hero/grey_livingroom.jpg');
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: 50px 0px 25px;
+}
+.gallery-imgtx {
+  padding: 0px 0px 0px;
+}
+/*header and text on about image*/
+.gallery-text {
+  margin: 100px 23px 0px 30px;;
+  background-color: rgba(0,0,0,0.3);
+}
+/*Carousel Section*/
+
+
+/*Gallery Section Ends*/
 /*Footer Section Starts*/
 .footer-distributed{
 	background-color: #0E1B23;
@@ -348,7 +368,6 @@ section {
 }
 /*Footer Responsivnes*/
 @media (max-width: 880px) {
-
 	.footer-distributed{
 		font: bold 14px sans-serif;
 	}
