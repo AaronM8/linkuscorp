@@ -11,9 +11,6 @@
 h1 h2 h3 h4 h5 h6 p {
   text-align: center;
 }
-img {
-  border-radius: 8px;
-}
 
 /*NavBar Section*/
 /*Navbar allignment*/
@@ -97,7 +94,7 @@ img {
 }
 /*Home Section Begins*/
 /*Hero Image Section*/
-.blue-prints {
+.blue-prints{
   background-image: url('../img/hero/blue_prints.jpg');
   background-size: cover;
   height: 400px;
@@ -105,42 +102,42 @@ img {
   margin: 50px 0px 25px;
 }
 /*Logo PGN*/
-#linkus-logo {
+#linkus-logo{
   padding-top: 150px;
   width: 300px;
 }
-#home-para {
+#home-para{
   padding: 0px 15%;
 }
-#people, #dish {
+#people, #dish{
   width: 80%;
   height: 175px;
   margin: 20px 40px 0px 0px;
 }
-.second-row {
+.home-second-row{
   margin-top: 10px;
 }
 /*Testimonial Carousel*/
-section {
+section{
     padding-top: 50px;
 }
-.quote {
+.quote{
     /*color: rgba(0,0,0,.1);*/
     color: #333;
     text-align: center;
     margin-bottom: 30px;
 }
 /*    Carousel Fade Transition   */
-#fade-quote-carousel.carousel {
+#fade-quote-carousel.carousel{
   padding-bottom: 60px;
 }
-#fade-quote-carousel.carousel .carousel-inner .item {
+#fade-quote-carousel.carousel .carousel-inner .item{
   opacity: 0;
   -webkit-transition-property: opacity;
       -ms-transition-property: opacity;
           transition-property: opacity;
 }
-#fade-quote-carousel.carousel .carousel-inner .active {
+#fade-quote-carousel.carousel .carousel-inner .active{
   opacity: 1;
   -webkit-transition-property: opacity;
       -ms-transition-property: opacity;
@@ -153,11 +150,11 @@ section {
   background-color: #e84a64;
   border: none;
 }
-#fade-quote-carousel blockquote {
+#fade-quote-carousel blockquote{
     text-align: center;
     border: none;
 }
-#fade-quote-carousel .profile-circle {
+#fade-quote-carousel .profile-circle{
     width: 100px;
     height: 100px;
     margin: 0 auto;
@@ -165,48 +162,42 @@ section {
 }
 /*Home Section Ends*/
 /*About Section Beings*/
-#about .livingroom-img {
+#about .livingroom-img{
   background-image: url('../img/hero/livingroom.jpg');
   background-size: cover;
   height: 400px;
   width: 100%;
   margin: 50px 0px 25px;
 }
-.about-imgtx {
-  padding: 0px 0px 0px;
-}
 /*header and text on about image*/
-.about-text {
+.about-text{
   margin: 100px 23px 0px 30px;;
   background-color: rgba(0,0,0,0.3);
 }
 /*About Second Section*/
-.commercial, .residential, .green-house {
+.commercial, .residential, .green-house{
   margin-top: 35px;
 }
-.about-imgs {
+.about-imgs{
   height: 200px;
   width: 100%;
 }
 /*About Section Ends*/
 /*Service Section Begins*/
-#services .technician-img {
+#services .technician-img{
   background-image: url('../img/hero/tech_wires.jpg');
   background-size: cover;
   height: 400px;
   width: 100%;
   margin: 50px 0px 25px;
 }
-.service-imgtx {
-  padding: 0px 0px 0px;
-}
 /*header and text on service image*/
-.service-text {
+.service-text{
   margin: 100px 23px 0px 30px;;
   background-color: rgba(0,0,0,0.3);
 }
 /*service Image Section*/
-.worker-img {
+.worker-img{
   background-image: url('../img/tech_wires.jpg');
   background-size: cover;
   height: 400px;
@@ -214,12 +205,12 @@ section {
   margin: 50px 0px 25px;
 }
 /*header and text on image*/
-.services {
+.services{
   margin: 125px 100px 0px 0px;
   background-color: rgba(5,4,2,0.1);
 }
 /*service list starts*/
-#service-list {
+#service-list{
   padding: 0px 5%;
 }
 .first-service, .third-service, .fifth-service, .seventh-service, .ninth-service, .eleventh-service{
@@ -231,25 +222,76 @@ section {
 /*serivce list ends*/
 /*Service Section Ends*/
 /*Gallery Section Begin*/
-#gallery .grey-livingroom-img {
+#gallery .grey-livingroom-img{
   background-image: url('../img/hero/grey_livingroom.jpg');
   background-size: cover;
   height: 400px;
   width: 100%;
   margin: 50px 0px 25px;
 }
-.gallery-imgtx {
-  padding: 0px 0px 0px;
-}
 /*header and text on about image*/
-.gallery-text {
+.gallery-text{
   margin: 100px 23px 0px 30px;;
   background-color: rgba(0,0,0,0.3);
 }
-/*Carousel Section*/
-
-
 /*Gallery Section Ends*/
+/*Certification Section Begins*/
+#certifications .laptop-planning-img{
+  background-image: url('../img/hero/laptop_planning.jpg');
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: 50px 0px 25px;
+}
+/*header and text on about image*/
+.certification-text{
+  margin: 100px 23px 0px 30px;;
+  background-color: rgba(0,0,0,0.3);
+}
+#certification-logos{
+  padding: 0px 10% 0px 10%;
+}
+.cert-logo{
+  padding: 15px 0px 15px;
+}
+.crestron, .pico-macom{
+  width: 300px;
+}
+.autocad, .pico-macom{
+  margin-left: 20px;
+}
+.cad-design-col, .crestron-col{
+  margin-top: 20px;
+}
+.crestron, .pico-macom, .tesira-forte-col{
+  margin-top: 15px;
+}
+.lutron, .tesira-forte{
+  margin-left: 30px;
+}
+/*Control4 Logo*/
+.control4{
+  margin-top: 25px;
+  margin-left: 35px;
+}
+/*Crestron Logo*/
+.crestron{
+  height: 120px;
+  margin-left: 25px;
+}
+/*Lutron HomeWorks*/
+.lutron{
+  margin-top: 22px;
+}
+.lutron-col{
+  margin-top: 5px;
+}
+/*Tesira Forte*/
+.tesira-forte{
+  margin-top: 40px;
+}
+
+/*Certification Section Ends*/
 /*Footer Section Starts*/
 .footer-distributed{
 	background-color: #0E1B23;
@@ -272,6 +314,13 @@ section {
 	width: 40%;
 }
 /* The company logo */
+#linkus-diamond{
+  width: 45px;
+  height: 45px;
+  margin-left: 45%;
+  transform: rotate(45deg);
+}
+
 .footer-distributed h3{
 	color:  #ffffff;
 	font: normal 36px 'Cookie';
